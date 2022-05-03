@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string-array name="CountryName">
+        <item>Please choose country</item>
+        <item>Taiwan</item>
+        <item>American</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>China</item>
+    </string-array>
+    <string-array name="date">
+        <item>1–10</item>
+        <item>11–20</item>
+        <item>21–30</item>
+    </string-array>
+</resources>

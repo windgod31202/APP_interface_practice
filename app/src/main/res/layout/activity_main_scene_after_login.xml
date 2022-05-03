@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScene_AfterLogin"
+    android:background="#58B2DC">
+
+<!--Button可以改用ImageButton進行，相對下會比Button的版面要來得更加繽紛-->
+    <TextView
+            android:id="@+id/infooflogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="主頁面"
+            android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/ic_baseline_hotel_24" />
+
+        <Button
+            android:id="@+id/news"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="最新資訊"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#E98B2A"
+            android:background="@drawable/buttoncolor"/>
+
+        <Button
+            android:id="@+id/Eventinfo"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/news"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="活動查詢"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#E98B2A"
+            android:background="@drawable/buttoncolor"/>
+
+    <Button
+        android:id="@+id/searchshop"
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/Eventinfo"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttoncolor"
+        android:text="搜尋店家"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#E98B2A"/>
+
+    <Button
+        android:id="@+id/member01"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/searchshop"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="申請加入\n特約店"
+        android:textSize="20dp"
+        android:textColor="#E98B2A"
+        android:textStyle="bold"
+        android:background="@drawable/buttoncolor"/>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/news"
+        android:text="掃一掃"
+        android:textSize="25dp"
+        android:textColor="#E98B2A"
+        android:textStyle="bold"
+        android:background="@drawable/buttoncolor"/>
+
+    <Button
+        android:id="@+id/rewardsearch"
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/scan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/Eventinfo"
+        android:background="@drawable/buttoncolor"
+        android:text="紅利點數\n查詢"
+        android:textColor="#E98B2A"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/functionsetting"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/rewardsearch"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/searchshop"
+            android:text="功能設置"
+            android:textSize="25dp"
+            android:textColor="#E98B2A"
+            android:textStyle="bold"
+            android:background="@drawable/buttoncolor"/>
+
+        <Button
+            android:id="@+id/member02"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/functionsetting"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/member01"
+            android:text="申請加入\n優惠店"
+            android:textSize="20dp"
+            android:textColor="#E98B2A"
+            android:textStyle="bold"
+            android:background="@drawable/buttoncolor"/>
+    </RelativeLayout>
